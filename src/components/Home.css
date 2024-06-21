@@ -1,0 +1,103 @@
+.home-container {
+  position: relative;
+  width: 50%;
+  min-height: 90vh;
+  background-color: #f06000;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+  color:  #202737;
+  overflow: hidden;
+}
+.home-container p{
+  margin-top: 30px;
+  font-size: 25px;
+  color: #333;
+}
+
+.homecontainer {
+  min-height: 80vh;
+}
+.home-container .moving{
+  position: relative;
+  color: aliceblue;
+
+}
+.button-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  margin-top: 35%;
+  margin-left: -450px;
+ 
+}
+
+.sign-in-button {
+  background-color: #ffffff;
+  height: 40px;
+  width: 120px;
+  color: #f06000;
+  border: 1px solid #f06000;
+  position: relative;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-left: 50%;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.log-in-button {
+  background-color: #f06000;
+  height: 40px;
+  width: 120px;
+  color: white;
+  position: relative;
+  border: 1px solid #f06000;
+  font-size: 1.0em;
+  font-weight: 500;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.log-in-button:hover {
+
+  background-color:#ffffff;
+  color: #f06000
+}
+
+.sign-in-button:hover {
+  background-color:#f06000;
+  color: #ffff
+}
+
+
+.background-image {
+  display: flex;
+  flex-direction: column ;
+  position: relative;
+  width: 50%;
+  min-height: 90vh;
+  background-color: white;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  /* margin-left: 25%; */
+}
